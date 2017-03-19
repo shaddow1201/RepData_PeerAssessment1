@@ -1,8 +1,12 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-output: github_document
+output: 
+  html_document:
+    keep_md: true
 ---
- 
+```{r setup, include = FALSE, cache = FALSE}  
+knitr::opts_chunk$set(error = TRUE)  
+```
 ## Loading and preprocessing the data
 #### Unzip archive and read data
 ```{r echo=TRUE}
