@@ -1,13 +1,11 @@
 ---
 title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
+output: github_document
 ---
  
 ## Loading and preprocessing the data
 #### Unzip archive and read data
-```{R echo=TRUE}
+```{r echo=TRUE}
 # graphics library load
 library(ggplot2)
 
@@ -19,7 +17,7 @@ baseData <- read.csv("activity.csv")
 ```
 
 #### Summarize Data
-```{r echo=TRUE}
+```{r  echo=TRUE}
 # Data Head
 head(baseData)
 
